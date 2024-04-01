@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menus",
+  "info": {
+    "singularName": "menu",
+    "pluralName": "menus",
+    "displayName": "menu",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Category": {
+      "type": "enumeration",
+      "enum": [
+        "Entrée du jour",
+        "Plat du jour",
+        "Pâte du jour",
+        "Pizza du jour",
+        "Dessert du jour",
+        "Vin du moment",
+        "Fromage du jour"
+      ]
+    },
+    "Tags": {
+      "type": "enumeration",
+      "enum": [
+        "Locale",
+        "Végane",
+        "Végétarien"
+      ]
+    },
+    "Price": {
+      "type": "decimal"
+    },
+    "Composition": {
+      "type": "string"
+    }
+  }
+}
